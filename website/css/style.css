@@ -1,0 +1,85 @@
+/* Select a font */
+body {
+  margin:0px;
+  
+  background-color: white;
+  font-family: Futura,  sans-serif;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	padding:12px;
+  background-color: #FF8000;
+  width:95%;
+  
+  
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  
+  color: #ffffff;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f3f3f3;
+  color: #FF8000;
+}
+
+.home {
+	
+	background-color:rgba(0,0,0,0.1);
+	
+	height:825px;
+	margin: auto;
+	width: 50%;
+ border-right: 3px solid #FF8000;
+  border-left: 3px solid #FF8000;
+  border-top: 3px solid #FF8000;
+  border-bottom: 3px solid #FF8000;
+  padding: 0px;
+	
+}
+
+.home p{
+	line-height: 1.6;
+	padding-top:50px;
+  height:30%;
+  width:70%;
+ font-size:20px;
+  
+  overflow: hidden;
+}
+.plakat {
+	padding-top:0px;
+	width:400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ #circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: #FF8000;
+    }
+
